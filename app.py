@@ -6,13 +6,13 @@ app = Flask(__name__)
 @app.route('/', methods=["GET"])
 
 def lastpage():
-    return "Welcome to My Homepage"
+    return "Welcome to ARN"
 
 
 @app.route('/', methods=["POST"])
 
 def post():
-    return "Welcome to POST Method"
+    return "Welcome to 2nd Page"
 
 
 if __name__ == "__main__":
